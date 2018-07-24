@@ -1,5 +1,5 @@
 
-** Singleton Pattern **
+# ** Singleton Pattern **
 
 Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual machine.
 It seems to be a very simple design pattern but when it comes to implementation,
@@ -13,22 +13,22 @@ topic among developers. This is one of the most discussed java design patterns.
 • Singleton pattern is used for logging, drivers objects, caching and thread pool.<br/>
 • Singleton design pattern is used in core java classes also, for example java.lang.Runtime, java.awt.Desktop.<br/>
 
-To implement Singleton pattern, we have different approaches but all of them have following common concepts.
+## To implement Singleton pattern, we have different approaches but all of them have following common concepts.
 
 • Private constructor to restrict instantiation of the class from other classes.<br/>
 • Private static variable of the same class that is the only instance of the class.<br/>
 • Public static method that returns the instance of the class, this is the global access point for outer world to get the
 instance of the singleton class.
 
-The different approaches are:
-    • Eager initialization<br/>
-    • Static block initialization<br/>
-    • Lazy Initialization<br/>
-    • Thread Safe Singleton<br/>
-    • Bill Pugh Singleton Implementation<br/>
-    • Using Reflection to destroy Singleton Pattern<br/>
-    • Enum Singleton<br/>
-    • Serialization and Singleton<br/>
+### The different approaches are:
+    * Eager initialization<br/>
+    * Static block initialization<br/>
+    * Lazy Initialization<br/>
+    * Thread Safe Singleton<br/>
+    * Bill Pugh Singleton Implementation<br/>
+    * Using Reflection to destroy Singleton Pattern<br/>
+    * Enum Singleton<br/>
+    * Serialization and Singleton<br/>
 
 
 The singleton pattern can be destroyed using reflection and many other ways and there are ways to overcome this.
