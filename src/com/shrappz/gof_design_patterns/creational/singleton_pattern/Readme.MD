@@ -21,14 +21,14 @@ topic among developers. This is one of the most discussed java design patterns.
 instance of the singleton class.
 
 ### The different approaches are:
-    * Eager initialization<br/>
-    * Static block initialization<br/>
-    * Lazy Initialization<br/>
-    * Thread Safe Singleton<br/>
-    * Bill Pugh Singleton Implementation<br/>
-    * Using Reflection to destroy Singleton Pattern<br/>
-    * Enum Singleton<br/>
-    * Serialization and Singleton<br/>
+    * Eager initialization
+    * Static block initialization
+    * Lazy Initialization
+    * Thread Safe Singleton
+    * Bill Pugh Singleton Implementation
+    * Using Reflection to destroy Singleton Pattern
+    * Enum Singleton
+    * Serialization and Singleton
 
 
 The singleton pattern can be destroyed using reflection and many other ways and there are ways to overcome this.
