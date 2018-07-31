@@ -1,4 +1,4 @@
-package com.shrappz.gof_design_patterns.creational.prototype;
+package com.shrappz.gof_design_patterns.creational.prototype_pattern;
 
 import java.util.ArrayList;
 import java.util.List;
