@@ -12,5 +12,3 @@ This is one of the most widely used java design pattern.
 * Factory design pattern provides approach to code for interface rather than implementation.
 * Factory pattern removes the instantiation of actual implementation classes from client code. Factory pattern makes our code more robust, less coupled and easy to extend. For example, we can easily change PC class implementation because client program is unaware of this.
 * Factory pattern provides abstraction between implementation and client classes through inheritance.
-
-ref: https://www.journaldev.com/1392/factory-design-pattern-in-java

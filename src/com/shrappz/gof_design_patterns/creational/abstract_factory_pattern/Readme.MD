@@ -1,4 +1,4 @@
-# ** Abstrack Factory Pattern **
+# ** Abstract Factory Pattern **
 
 Abstract Factory pattern is similar to Factory pattern and it’s factory of factories.
 If you are familiar with factory design pattern in java, you will notice that we have a single Factory class that

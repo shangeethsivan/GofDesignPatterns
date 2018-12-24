@@ -37,11 +37,7 @@ public class Companies implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        List<String> companienames = new ArrayList<>();
-        for (String lCompanyName :
-                mCompanieNames) {
-            companienames.add(lCompanyName);
-        }
-        return new Companies(companienames);
+        return new Companies(new ArrayList<>(mCompanieNames));
     }
+
 }

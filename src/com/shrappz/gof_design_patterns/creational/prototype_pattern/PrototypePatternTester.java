@@ -1,5 +1,7 @@
 package com.shrappz.gof_design_patterns.creational.prototype_pattern;
 
+import java.util.ArrayList;
+
 /**
  * Created by Shangeeth on 31/07/18.
  */
@@ -9,6 +11,7 @@ public class PrototypePatternTester {
 
         Companies lCompanies = new Companies();
         lCompanies.loadData();
+
         Companies lCompanies1 = (Companies) lCompanies.clone();
         Companies lCompanies2 = (Companies) lCompanies.clone();
 
